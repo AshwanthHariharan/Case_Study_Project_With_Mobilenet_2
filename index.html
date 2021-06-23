@@ -1,0 +1,246 @@
+
+<html>
+
+    <head>
+        
+    <title>CASE STUDY PROJECT</title>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    
+    <body onload="load()">    
+    
+    <p style="color:brown;">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</p>   
+    
+    <br>
+
+    <br>
+
+    <h4>GOOGLE LENS</h4>
+
+    <img src="google_lens.png" style="height: 150px;">
+
+    <br>
+
+    vs
+
+    <br>
+
+    <h4 class="btn btn-primary">Mobilenet</h4>
+    
+    <ol>
+    
+    <div class="text_images_and_result">
+    
+    <li>
+    
+    <b>Test Image</b>
+    
+    <img src="bottle (1).jpeg" class="img-responsive" id="bottle">
+    
+    </li>
+    
+    <h5>Output on <b style="color: blueviolet;">Google Lens</b> - 
+    
+    <span>Water Bottle </span>
+    
+    </h5>
+    
+    <h5>Output on <b style="color: blueviolet;">MobileNet Model</b> - 
+    
+    <span id="bottle_Mobilenet_Model"> </span>
+        
+    </h5>
+    
+    <div class="mini_result">
+    
+    <h4>Result - </h4>
+    
+    <hr>
+    
+    <h4 style="color: white;"> Draw</h4>
+    
+    </div>
+    
+    <hr>
+    
+    </div>
+    
+    <div class="text_images_and_result">
+    
+    <li>
+        
+    <b>Test Image</b>
+        
+    <img src="shoes.jpeg" class="img-responsive" id="shoes">
+        
+    </li>
+        
+    <h5>Output on <b style="color: blueviolet;">Google Lens</b> - 
+        
+    <span>canvas shoe </span>
+        
+    </h5>
+        
+    <h5>Output on <b style="color: blueviolet;">MobileNet Model</b> - 
+        
+    <span id="shoes_Mobilenet_Model"> </span>
+            
+    </h5>
+        
+    <div class="mini_result">
+        
+    <h4>Result - </h4>
+        
+    <hr>
+        
+    <h4 style="color: white;"> Google Lens is More Accurate</h4>
+    
+    </div>
+        
+    <hr>
+        
+    </div>
+    
+    <hr>
+    
+    <div class="text_images_and_result">
+    
+    <li>
+            
+    <b>Test Image</b>
+            
+    <img src="hp.jpeg" class="img-responsive" id="hp">
+            
+    </li>
+            
+    <h5>Output on <b style="color: blueviolet;">Google Lens</b> - 
+            
+    <span>Head Phones </span>
+            
+    </h5>
+            
+    <h5>Output on <b style="color: blueviolet;">MobileNet Model</b> - 
+            
+    <span id="hp_Mobilenet_Model"> </span>
+                
+    </h5>
+            
+    <div class="mini_result">
+            
+    <h4>Result - </h4>
+            
+    <hr>
+            
+    <h4> Google Lens is More Accurate</h4>
+            
+    </div>
+            
+    <hr>
+            
+    </div>
+        
+    <hr>
+    
+    <div class="text_images_and_result">
+    
+    <li>
+                
+    <b>Test Image</b>
+                
+    <img src="t.jpeg" class="img-responsive" id="t">
+                
+    </li>
+                
+    <h5>Output on <b style="color: blueviolet;">Google Lens</b> - 
+                
+    <span>Soft Toy </span>
+                
+    </h5>
+                
+    <h5>Output on <b style="color: blueviolet;">MobileNet Model</b> - 
+                
+    <span id="t_Mobilenet_Model"> </span>
+                    
+    </h5>
+                
+    <div class="mini_result">
+                
+    <h4>Result - </h4>
+                
+    <hr>
+                
+    <h4> Google Lens is More Accurate</h4>
+                
+    </div>
+                
+    <hr>
+                
+    </div>
+            
+    <hr>
+    
+    <div class="text_images_and_result">
+    
+    <li>
+                    
+    <b>Test Image</b>
+                    
+    <img src="bed.jpeg" class="img-responsive" id="bed">
+                    
+    </li>
+                    
+    <h5>Output on <b style="color: blueviolet;">Google Lens</b> - 
+                    
+    <span>Bed, Pillow, Blanket </span>
+                    
+    </h5>
+                    
+    <h5>Output on <b style="color: blueviolet;">MobileNet Model</b> - 
+                    
+    <span id="bed_Mobilenet_Model"> </span>
+                        
+    </h5>
+                    
+    <div class="mini_result">
+                    
+    <h4>Result - </h4>
+                    
+    <hr>
+                    
+    <h4> Google Lens is More Accurate</h4>
+                    
+    </div>
+                
+    <hr>
+                    
+    </div>
+                
+    <hr>
+    
+    </ol>
+    
+    <div class="copy_right_footer">
+    
+    <label>Developed By Ashwanth Hariharan</label>
+    
+    </div>
+    
+    <script src="main.js"></script>
+    
+    </body>
+    
+    </html>

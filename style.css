@@ -1,0 +1,123 @@
+
+
+li b {
+
+    color: blueviolet;
+    
+    margin-left: 1px;
+    
+    }
+    
+    span {
+    
+    color: red;
+    
+    }
+    
+    .mini_result {
+    
+    background-color: grey;
+    
+    border-radius: 10px;
+    
+    width: 950px;
+    
+    height: 100px;
+    
+    color: white;
+    
+    text-align: center;
+    
+    margin-left: 1px;
+    
+    margin-bottom: 25px;
+    
+    }
+    
+    #bottle {
+    
+    height: 400px;
+    
+    border-radius: 10px;
+    
+    margin-left: 1px;
+    
+    }
+    
+    div {
+    
+    border-radius: 10px;
+    
+    box-shadow: 5px 5px 18px black;
+    
+    width: 1010px;
+    
+    padding-left: 30px;
+    
+    margin-top: 25px;
+
+    background-color: grey;
+    
+    }
+    
+    h5  {
+    
+    margin-left: 1px;
+    
+    }
+    
+    #shoes {
+    
+    width: 300px;
+    
+    border-radius: 10px;
+    
+    }
+    
+    #hp {
+    
+    width: 300px;
+    
+    border-radius: 10px;
+    
+    }
+    
+    #t {
+    
+    width: 350px;
+    
+    border-radius: 10px;
+    
+    }
+    
+    #bed {
+    
+    height: 400px;
+    
+    border-radius: 10px;
+    
+    }
+    
+    .copy_right_footer {
+    
+    position: fixed;
+        
+    color:red;
+        
+    bottom: 0;
+        
+    width:100%;
+        
+    background-color: white;
+        
+    text-align: center;
+        
+    line-height: 3;
+        
+    }
+    
+    .copy_right_footer label {
+    
+    font-family: "Special Elite", cursive;
+    
+    }
